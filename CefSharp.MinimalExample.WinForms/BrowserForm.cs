@@ -18,7 +18,7 @@ namespace CefSharp.MinimalExample.WinForms
             InitializeComponent();
 
             Text = "CefSharp";
-            WindowState = FormWindowState.Maximized;
+            //WindowState = FormWindowState.Maximized;
 
             browser = new ChromiumWebBrowser("www.google.com")
             {
